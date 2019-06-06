@@ -1,0 +1,10 @@
+<h1>Elon musk news</h1>
+
+{% for post in posts %}
+   <h2><a href="">{{post.title}}</a> </h2>
+
+
+   <h3>{{post.content}}</h3>
+<h3>Author<span style="color:red"> {{post.author}}</span></h3>
+   <h4>published_on:{{post.published_date}}</h4>
+{% endfor %}
